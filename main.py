@@ -29,3 +29,5 @@ while True:
         continue
     for field in info.keys():
         print(field, ':', info[field])
+    if 'rain' in info['Description']:
+        print('You might want to take an umbrella with you.')
